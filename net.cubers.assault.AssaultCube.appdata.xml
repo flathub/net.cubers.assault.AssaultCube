@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component type="desktop">
+<component type="desktop-application">
   <id>net.cubers.assault.AssaultCube</id>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>Zlib AND LicenseRef-proprietary=https://assault.cubers.net/docs/license.html</project_license>
-  <developer_name>Rapid Viper Productions</developer_name>
+  <developer id="net.cubers.assault">
+    <name>Rapid Viper Productions</name>
+  </developer>
   <name>AssaultCube</name>
   <summary>Fast arcade first person shooter</summary>
   <description>
     <p>AssaultCube is a free, multiplayer, first-person shooter game, based on the CUBE engine.</p>
     <p>Taking place in realistic environments, with fast, arcade gameplay, it's addictive and fun!</p>
-    <p>With efficient bandwidth usage, it's low-latency and can even run over a 56 Kbps connection. 
+    <p>With efficient bandwidth usage, it's low-latency and can even run over a 56 Kbps connection.
       It's tiny too and on the correct settings, it can even run on old hardware (Pentium III and above).</p>
   </description>
-  <url type="homepage">https://assault.cubers.net/</url>
+  <url type="homepage">https://assault.cubers.net</url>
   <url type="bugtracker">https://github.com/assaultcube/AC/issues</url>
+  <url type="vcs-browser">https://github.com/assaultcube/AC</url>
   <screenshots>
     <screenshot type="default">
       <image>https://assault.cubers.net/screenshots/screenshots-large/ac_mines_CTF_SMG_large01.jpg</image>
